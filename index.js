@@ -18,8 +18,8 @@ function happyHolidayTo(holiday, name) {
 
 console.log(happyHolidayTo("X-Mas", "Le Hoang"));
 
-function holidayCountDown(days, holiday) {
+function holidayCountDown(holiday, days) {
   return `It's ${days} days until ${holiday}!`;
 }
 
-console.log(holidayCountDown(30, "X-mas"));
+console.log(holidayCountDown("X-Mas", 30));
